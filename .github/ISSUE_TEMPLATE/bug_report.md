@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug, documentation
+labels: Another Long Sentence, bug, Checkout Production Support, documentation
 assignees: ''
 
 ---
