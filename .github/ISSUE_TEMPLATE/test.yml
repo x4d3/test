@@ -1,5 +1,5 @@
 name: Checkout Issue Report
-about: This is used for reporting an issue with Checkout
+description: This is used for reporting an issue with Checkout
 title: "One-liner to describe the issue"
 labels: Checkout Production Support
 body:
