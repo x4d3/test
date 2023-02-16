@@ -1,0 +1,71 @@
+name: Checkout Issue Report
+about: This is used for reporting an issue with Checkout
+title: "One-liner to describe the issue"
+labels: Checkout Production Support
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report an issue with Checkout.
+        
+        Consider the following before submitting an issue
+  
+        - See our [playbook](https://checkout.docs.shopify.io/docs/referencedocs/playbooks/playbook) and resources to confirm whether it is a Checkout issue
+        - Validate the issue to the best of your abilities, our tools, logs and resources can help confirm it is an issue
+        - Identify if the issue is in Checkout Classic or C1 by following [this guide](https://checkout.docs.shopify.io/docs/referencedocs/debug#checkout-one-or-classic)
+        - If there is an incident , page checkout-oncall
+        
+        **MSMs / Support Advisors, please go through #support-technical / #support-plus-oncall first.**
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Give a detail description of the problem
+    validations:
+      required: true
+  - type: dropdown
+    id: c1_or_classic
+    attributes:
+      label: C1 or Classic ?
+      description: Is the issue occurring for C1 or Classic ?
+      options:
+        - C1
+        - Classic
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: buyer_impact
+    attributes:
+      label: How does this impact the Buyer?
+      description: Give a detail description of the problem
+  - type: textarea
+    id: merchant_impact
+    attributes:
+      label: How does this impact the Merchant?
+      description: Give a detail description of the problem
+  - type: textarea
+    id: identifying_information
+    attributes:
+      label: Identifying information
+      description: Give a detail description of the problem
+  - type: textarea
+    id: detailed_description
+    attributes:
+      label: Give a detail description of the problem
+      description: |
+        Fill in when possible
+        **Log retention notice:** Splunk has a limited log retention period which can affect our ability to debug issues. When referencing Splunk logs, be sure to include a copy of the query you ran, and also [export](https://docs.splunk.com/Documentation/Splunk/9.0.2/Search/ExportdatausingSplunkWeb) and [attach](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) a copy of the relevant data to this issue.
+      placeholder: |
+        Request id:
+        Cart id:
+        Session token:
+        Logs:
+  - type: textarea
+    id: description
+    attributes:
+      label: Steps to reproduce
+      description: |
+        If you are able to reproduce the issue, let us know how to do that.
+        Make sure you have tried using the same Buyer's address
