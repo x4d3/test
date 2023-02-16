@@ -46,10 +46,6 @@ body:
     id: identifying_information
     attributes:
       label: Identifying information
-  - type: textarea
-    id: detailed_description
-    attributes:
-      label: Give a detailed description of the problem
       description: |
        **Log retention notice:** Splunk has a limited log retention period which can affect our ability to debug issues. When referencing Splunk logs, be sure to include a copy of the query you ran, and also [export](https://docs.splunk.com/Documentation/Splunk/9.0.2/Search/ExportdatausingSplunkWeb) and [attach](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) a copy of the relevant data to this issue.
       value: |
