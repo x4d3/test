@@ -1,8 +1,6 @@
 name: Checkout Issue Report
-about: This is used for reporting an issue with Checkout
 title: "One-liner to describe the issue"
 labels: Checkout Production Support
-assignees: ""
 body:
   - type: markdown
     attributes:
@@ -63,7 +61,7 @@ body:
         Session token:
         Logs:
   - type: textarea
-    id: description
+    id: reproduction_steps
     attributes:
       label: Steps to reproduce
       description: |
