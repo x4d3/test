@@ -1,6 +1,6 @@
 name: Checkout Issue Report
-description: This is used for reporting an issue with Checkout
-title: "One-liner to describe the issue"
+about: This is used for reporting an issue with Checkout
+title: One-liner to describe the issue
 labels: Checkout Production Support
 body:
   - type: markdown
@@ -38,21 +38,18 @@ body:
     id: buyer_impact
     attributes:
       label: How does this impact the Buyer?
-      description: Give a detail description of the problem
   - type: textarea
     id: merchant_impact
     attributes:
       label: How does this impact the Merchant?
-      description: Give a detail description of the problem
   - type: textarea
     id: identifying_information
     attributes:
       label: Identifying information
-      description: Give a detail description of the problem
   - type: textarea
     id: detailed_description
     attributes:
-      label: Give a detail description of the problem
+      label: Give a detailed description of the problem
       description: |
         Fill in when possible
         **Log retention notice:** Splunk has a limited log retention period which can affect our ability to debug issues. When referencing Splunk logs, be sure to include a copy of the query you ran, and also [export](https://docs.splunk.com/Documentation/Splunk/9.0.2/Search/ExportdatausingSplunkWeb) and [attach](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) a copy of the relevant data to this issue.
