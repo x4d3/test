@@ -9,7 +9,7 @@ body:
         Thank you for taking the time to report an issue with Checkout.
         
         Consider the following before submitting an issue
-  
+        
         - See our [playbook](https://checkout.docs.shopify.io/docs/referencedocs/playbooks/playbook) and resources to confirm whether it is a Checkout issue
         - Validate the issue to the best of your abilities, our tools, logs and resources can help confirm it is an issue
         - Identify if the issue is in Checkout Classic or C1 by following [this guide](https://checkout.docs.shopify.io/docs/referencedocs/debug#checkout-one-or-classic)
@@ -51,9 +51,8 @@ body:
     attributes:
       label: Give a detailed description of the problem
       description: |
-        Fill in when possible
-        **Log retention notice:** Splunk has a limited log retention period which can affect our ability to debug issues. When referencing Splunk logs, be sure to include a copy of the query you ran, and also [export](https://docs.splunk.com/Documentation/Splunk/9.0.2/Search/ExportdatausingSplunkWeb) and [attach](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) a copy of the relevant data to this issue.
-      placeholder: |
+       **Log retention notice:** Splunk has a limited log retention period which can affect our ability to debug issues. When referencing Splunk logs, be sure to include a copy of the query you ran, and also [export](https://docs.splunk.com/Documentation/Splunk/9.0.2/Search/ExportdatausingSplunkWeb) and [attach](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) a copy of the relevant data to this issue.
+      value: |
         Request id:
         Cart id:
         Session token:
