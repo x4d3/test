@@ -8,14 +8,14 @@ body:
       value: |
         Thank you for taking the time to report an issue with Checkout.
         
-        Consider the following before submitting an issue
+        Consider the following before submitting an issue:
         
-        - See our [playbook](https://checkout.docs.shopify.io/docs/referencedocs/playbooks/playbook) and resources to confirm whether it is a Checkout issue
-        - Validate the issue to the best of your abilities, our tools, logs and resources can help confirm it is an issue
-        - Identify if the issue is in Checkout Classic or C1 by following [this guide](https://checkout.docs.shopify.io/docs/referencedocs/debug#checkout-one-or-classic)
-        - If there is an incident , page checkout-oncall
+        - Go through our [playbook](https://checkout.docs.shopify.io/docs/referencedocs/playbooks/playbook) and resources to confirm whether it is a Checkout issue.
+        - Validate the issue to the best of your abilities. Provide steps to reproduce when possible. Our tools, logs and resources can help confirm it is an issue.
+        - Identify if the issue occurs in Checkout Classic or in Checkout One by following [this guide](https://checkout.docs.shopify.io/docs/referencedocs/debug#checkout-one-or-classic).
+        - If there is an incident , page `checkout-oncall`.
         
-        **MSMs / Support Advisors, please go through #support-technical / #support-plus-oncall first.**
+        **MSMs / Support Advisors, please go through [#support-global-technical](https://shopify.slack.com/archives/C02M3AD04QZ) / [#support-plus-technical](https://shopify.slack.com/archives/C034B096E) first.**
   - type: textarea
     id: description
     attributes:
@@ -26,10 +26,10 @@ body:
   - type: dropdown
     id: c1_or_classic
     attributes:
-      label: C1 or Classic ?
-      description: Is the issue occurring for C1 or Classic ?
+      label: Checkout Classic or Checkout One?
+      description: Is the issue occurring on Checkout Classic or Checkout One?
       options:
-        - C1
+        - Checkout One
         - Classic
         - Both
     validations:
@@ -59,4 +59,4 @@ body:
       label: Steps to reproduce
       description: |
         If you are able to reproduce the issue, let us know how to do that.
-        Make sure you have tried using the same Buyer's address
+        Make sure you have tried using the same Buyer's address.
